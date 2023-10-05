@@ -53,7 +53,7 @@ mod error;
 mod frames;
 mod profiler;
 mod report;
-mod timer;
+pub mod timer;
 
 pub use self::addr_validate::validate;
 pub use self::collector::{Collector, HashCounter};
